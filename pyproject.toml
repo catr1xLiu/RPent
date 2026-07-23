@@ -79,7 +79,7 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["rpent*"]
+include = ["rpent*", "robots*"]
 exclude = ["tests*", "docs*", "examples*", "docker*", "toolkits*"]
 
 [tool.ruff]
